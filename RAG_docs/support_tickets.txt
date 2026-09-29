@@ -1,0 +1,33 @@
+Title: Accessing Customer Support Tickets in PostgreSQL
+
+System Overview:
+All inbound customer support tickets (from email, chat, and phone) are centralized in a PostgreSQL database. Each record contains metadata such as ticket ID, timestamp, customer ID, channel, priority, and free-text issue description.
+
+Schema Example:
+
+ticket_id     SERIAL      Unique ID for each support case
+customer_id   INT         Foreign key to customer database
+channel       VARCHAR     Email, chat, or phone
+priority      VARCHAR     Low, Medium, High, Urgent
+description   TEXT        Free-form text of customer issue
+created_at    TIMESTAMP   When the ticket was logged
+resolved_at   TIMESTAMP   When the ticket was closed
+
+Usage Guidelines:
+- Analysts can connect via psql or Python’s psycopg2 library.
+- Use parameterized queries to avoid SQL injection.
+- Typical query:
+
+SELECT ticket_id, description
+FROM tickets
+WHERE created_at >= NOW() - INTERVAL '7 days'
+  AND priority = 'High';
+
+Applications:
+- Identify common complaint categories (e.g., login issues, billing errors).
+- Train NLP models for automated triage.
+- Feed unresolved tickets into the Data Science assistant bot for retrieval-augmented answers.
+
+Notes:
+- Data is refreshed in near real time.
+- Tickets older than 2 years are archived to cold storage.

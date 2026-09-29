@@ -1,0 +1,21 @@
+Title: Quarterly Marketing KPIs
+
+Overview:
+Each quarter, the Marketing team tracks a set of key performance indicators (KPIs) to measure the effectiveness of campaigns and overall strategy. These KPIs cover awareness, engagement, conversion, and retention.
+
+KPI List:
+1. Click-Through Rate (CTR) – Percentage of users who click on ads or links after viewing them. Target: 3.0%+ across paid channels.
+2. Conversion Rate – Percentage of users who complete a desired action (purchase, signup). Target: 5% on landing pages.
+3. Cost Per Acquisition (CPA) – Average spend to acquire a new customer. Target: <$50.
+4. Customer Lifetime Value (CLV) – Estimated revenue from a customer over their lifetime. Target: >$400.
+5. Social Media Engagement Rate – Likes, shares, and comments relative to followers. Target: 4%+ per campaign.
+6. Email Open Rate – Percentage of recipients who open marketing emails. Target: 25%+.
+7. Return on Ad Spend (ROAS) – Revenue generated for every dollar spent on advertising. Target: 4x or greater.
+8. Net Promoter Score (NPS) – Customer satisfaction and loyalty metric. Target: +40 or higher.
+9. Website Bounce Rate – Percentage of visitors leaving without interacting. Target: <40%.
+10. Marketing Qualified Leads (MQLs) – Leads deemed ready for sales outreach. Target: 2,000 per quarter.
+
+Usage:
+- KPIs are reported weekly to the Marketing Director.
+- Monthly summaries highlight trends and areas for optimization.
+- Analysts are expected to provide context and narrative with each KPI update.

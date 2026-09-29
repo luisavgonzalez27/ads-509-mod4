@@ -1,0 +1,39 @@
+Title: Standard Data Science Workflow
+
+Introduction:
+Our data science team follows a structured workflow to ensure projects are reproducible, efficient, and aligned with business goals.
+
+Steps:
+1. Problem Definition
+   - Clearly state the business question and success criteria.
+   - Example: “Predict churn for subscription customers.”
+
+2. Data Collection
+   - Pull structured data from databases (PostgreSQL, Snowflake).
+   - Gather unstructured data from APIs, logs, or surveys.
+
+3. Data Cleaning & Preprocessing
+   - Handle missing values, outliers, and categorical encodings.
+   - Standardize feature scaling for machine learning.
+
+4. Exploratory Data Analysis (EDA)
+   - Use pandas, matplotlib, and seaborn to visualize distributions.
+   - Identify correlations, trends, and anomalies.
+
+5. Model Training
+   - Start with baseline models (logistic regression, random forest).
+   - Progress to more complex models (gradient boosting, neural nets).
+   - Tools: scikit-learn, XGBoost, PyTorch.
+
+6. Model Evaluation
+   - Metrics: accuracy, precision/recall, F1 score, ROC-AUC.
+   - Use cross-validation for robustness.
+
+7. Deployment & Monitoring
+   - Package models in Docker and deploy via AWS SageMaker.
+   - Track performance drift with MLflow.
+
+Best Practices:
+- Keep code modular and version controlled (GitHub).
+- Document assumptions and preprocessing steps.
+- Regularly update models as new data arrives.
